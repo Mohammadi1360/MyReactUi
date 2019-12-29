@@ -1,0 +1,7 @@
+/* SURVEY */
+export const RECEIVE_SURVEYS = 'RECEIVE_SURVEYS';
+export const RECEIVE_SURVEY = 'RECEIVE_SURVEY';
+export const ADD_SURVEY = 'ADD_SURVEY';
+export const UPDATE_SURVEY = 'UPDATE_SURVEY';
+export const REMOVE_SURVEY = 'REMOVE_SURVEY';
+export const SURVEYS_ERROR = 'SURVEYS_ERROR';

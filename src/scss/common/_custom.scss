@@ -1,0 +1,66 @@
+// custom scss / Do Other Custom Changes here ...
+body {
+  font-family: Yekan, Tahoma, sans-serif;
+  font-size: 0.812rem;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d4d5d6;
+}
+
+.scroll-div {
+  overflow: auto;
+  height: 100vh;
+  width: 100vw;
+}
+
+button {
+  background-color: gold;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+*[dir="rtl"] .sidebar .nav-dropdown-toggle {
+  &::before {
+    transform: rotate(0deg);
+  }
+}
+
+.sidebar .nav-dropdown-toggle {
+  &::before {
+    transform: rotate(180deg);
+  }
+}
+
+.form-check-label {
+  margin-bottom: 0;
+  padding-right: 20px;
+}
+
+.formDialog {
+  box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.4);
+}
+
+// Models ...
+
+.modal-footer {
+  padding: 0.2rem;
+}
+
+.modal-header {
+  padding: 0.4rem;
+}
+
+.modal-dialog {
+  margin: 6rem auto;
+}
+
+.modal-header .close {
+  padding: 1.1rem 1.4rem;
+  margin: -1rem;
+}
+
+//Form-control
+.form-control {
+  height: 3em;
+}

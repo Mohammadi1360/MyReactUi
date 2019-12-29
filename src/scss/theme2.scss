@@ -1,0 +1,79 @@
+
+$white:     #fff !default;
+$gray-base: #181b1e !default;
+$gray-100:  #f0f3f5 !default; // lighten($gray-base, 85%);
+$gray-200:  #e4e7ea !default; // lighten($gray-base, 80%);
+$gray-300:  #c8ced3 !default; // lighten($gray-base, 70%);
+$gray-400:  #acb4bc !default; // lighten($gray-base, 60%);
+$gray-500:  #8f9ba6 !default; // lighten($gray-base, 50%);
+$gray-600:  #73818f !default; // lighten($gray-base, 40%);
+$gray-700:  #5c6873 !default; // lighten($gray-base, 30%);
+$gray-800:  #2f353a !default; // lighten($gray-base, 10%);
+$gray-900:  #23282c !default; // lighten($gray-base, 5%);
+$black:     #000 !default;
+
+$blue: #547fff;
+$indigo: #7f3ddb;
+$purple: #9964e3;
+$pink: #e54e9a;
+$red: #f55d5d;
+$orange: #ff7d47;
+$yellow: #ffc247;
+$green: #68ca66;
+$teal: #3abf94;
+$cyan: #17a2b8;
+$light-blue: #0acede !default;
+$white: #fff;
+$gray: #798892;
+$gray-dark: #3c484f;
+
+$primary:       $gray-200 !default;
+$secondary:     $gray-800 !default;
+$success:       $gray-700 !default;
+$info:          $gray-300 !default;
+$warning:       $gray-900 !default;
+$danger:        $gray-600 !default;
+$light:         $gray-400 !default;
+$dark:          $gray-500 !default;
+$inverse: #495057;
+$default: #e9ecef;
+$primary-light: #dee4ee;
+$success-light: #ecfaec;
+$info-light: #f2fafa;
+$warning-light: #fdf7e6;
+$danger-light: #fff2ef;
+
+
+
+$facebook:       #3b5998 !default;
+$twitter:        #00aced !default;
+$linkedin:       #4875b4 !default;
+$google-plus:    #d34836 !default;
+$flickr:         #ff0084 !default;
+$tumblr:         #32506d !default;
+$xing:           #026466 !default;
+$github:         #4183c4 !default;
+$html5:          #e34f26 !default;
+$openid:         #f78c40 !default;
+$stack-overflow: #fe7a15 !default;
+$youtube:        #b00 !default;
+$css3:           #0170ba !default;
+$dribbble:       #ea4c89 !default;
+$google-plus:    #bb4b39 !default;
+$instagram:      #517fa4 !default;
+$pinterest:      #cb2027 !default;
+$vk:             #45668e !default;
+$yahoo:          #400191 !default;
+$behance:        #1769ff !default;
+$dropbox:        #007ee5 !default;
+$reddit:         #ff4500 !default;
+$spotify:        #7ab800 !default;
+$vine:           #00bf8f !default;
+$foursquare:     #1073af !default;
+$vimeo:          #aad450 !default;
+
+@import './common/style';
+
+//.app-header {
+//  background-color: rgba(0, 0, 0, 0.56);
+//}
